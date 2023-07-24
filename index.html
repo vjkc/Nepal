@@ -170,16 +170,21 @@
 
           </select>
             
-          <select name="language">
+          <select> name="language">
 
             <option value="en-US">English</option>
             <option value="ne-NP">नेपाली</option>
-
           </select>
+
+
+            <select>
+
+             
+              <option value="Become a seller">Vendor</option>
+              <a href="Vendor.html" id="become-seller-btn">Become a Seller</a>
+            </select>
+
           
-          <option value="Become a seller">Become a seller</option>
-          </select>
-
         </div>
 
       </div>
@@ -210,17 +215,19 @@
           <button class="action-btn">
             <ion-icon name="person-outline"></ion-icon>
           </button>
-
-          <button class="action-btn">
+          
+          <a href="Wishlist.html" class="cart-link">
+          <button class="action-btn" onclick="toggleWishlist()">
             <ion-icon name="heart-outline"></ion-icon>
             <span class="count">0</span>
           </button>
 
+          <a href="cart.html" class="cart-link">
           <button class="action-btn">
-            <ion-icon name="bag-handle-outline"></ion-icon>
+            <ion-icon name="cart"></ion-icon>
             <span class="count">0</span>
           </button>
-
+        </a>
         </div>
 
       </div>
